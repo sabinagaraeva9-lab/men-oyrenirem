@@ -1,0 +1,482 @@
+[
+  {
+    "word": "Ağaç",
+    "transcription": "[аадж]",
+    "translation": "Дерево",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Alma",
+    "transcription": "[алма]",
+    "translation": "Яблоко",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Ana",
+    "transcription": "[ана]",
+    "translation": "Мама",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Armud",
+    "transcription": "[армуд]",
+    "translation": "Груша",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "At",
+    "transcription": "[ат]",
+    "translation": "Лошадь",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Ata",
+    "transcription": "[ата]",
+    "translation": "Папа",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Ayaq",
+    "transcription": "[аях]",
+    "translation": "Нога",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Ayı",
+    "transcription": "[айы]",
+    "translation": "Медведь",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Az",
+    "transcription": "[аз]",
+    "translation": "Мало",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Bağ",
+    "transcription": "[баг]",
+    "translation": "Сад, дача",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Bal",
+    "transcription": "[бал]",
+    "translation": "Мёд, балл",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Balıq",
+    "transcription": "[балык]",
+    "translation": "Рыба",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Balta",
+    "transcription": "[балта]",
+    "translation": "Топор",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Baş",
+    "transcription": "[баш]",
+    "translation": "Голова",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Bəs",
+    "transcription": "[бэс]",
+    "translation": "Вопросительный союз «а»",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Bəy",
+    "transcription": "[бэй]",
+    "translation": "Жених; обращение к мужчинам",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Bəyəm",
+    "transcription": "[бэйэм]",
+    "translation": "Разве",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Bıçaq",
+    "transcription": "[бычак/пычак]",
+    "translation": "Нож",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Bibi",
+    "transcription": "[биби]",
+    "translation": "Тётя (со стороны отца)",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Boru",
+    "transcription": "[бору]",
+    "translation": "Труба",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Bu",
+    "transcription": "[бу]",
+    "translation": "Это",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Bulud",
+    "transcription": "[булуд]",
+    "translation": "Облако",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Bura",
+    "transcription": "[бура]",
+    "translation": "Это место",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Çalışma",
+    "transcription": "[чалышма]",
+    "translation": "Упражнение",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Çəkic",
+    "transcription": "[чякидж]",
+    "translation": "Молоток",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Çıxış",
+    "transcription": "[чихыш]",
+    "translation": "Выход",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Çiçək/gül",
+    "transcription": "[чичяй/гюль]",
+    "translation": "Цветок",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Çox/çoxlu/xeyli",
+    "transcription": "[чох/чохлу/хейли]",
+    "translation": "Очень; много; множество",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Çörək",
+    "transcription": "[чёряй]",
+    "translation": "Хлеб",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Dəftər",
+    "transcription": "[дяфтяр]",
+    "translation": "Тетрадь",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Dərs",
+    "transcription": "[дярс]",
+    "translation": "Урок, занятие, пара",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Divan",
+    "transcription": "[диван]",
+    "translation": "Диван",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Ev",
+    "transcription": "[эв]",
+    "translation": "Дом",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Əl",
+    "transcription": "[эль]",
+    "translation": "Рука, кисть руки",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Əmi",
+    "transcription": "[эми]",
+    "translation": "Дядя (со стороны отца)",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Gavalı",
+    "transcription": "[гявалы]",
+    "translation": "Слива",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Gəlin",
+    "transcription": "[гялин]",
+    "translation": "Невеста",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Gilas",
+    "transcription": "[гилас]",
+    "translation": "Черешня",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Giriş",
+    "transcription": "[гириш]",
+    "translation": "Вход",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Göz",
+    "transcription": "[гёз]",
+    "translation": "Глаз",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Günəş",
+    "transcription": "[гюняш]",
+    "translation": "Солнце",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Hara",
+    "transcription": "[хара]",
+    "translation": "Что? Куда?",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Xanım",
+    "transcription": "[ханым]",
+    "translation": "Дама; обращение к женщинам",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Xəstə",
+    "transcription": "[хястя]",
+    "translation": "Больной; пациент",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Xiyar",
+    "transcription": "[хыяр]",
+    "translation": "Огурец",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "İlan",
+    "transcription": "[илан]",
+    "translation": "Змея",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "İnək",
+    "transcription": "[инэй]",
+    "translation": "Корова",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "İnsan/adam",
+    "transcription": "[инсан/адам]",
+    "translation": "Человек",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "İt",
+    "transcription": "[ит]",
+    "translation": "Собака",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Kağız",
+    "transcription": "[къагыз]",
+    "translation": "Бумага",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Karandaş",
+    "transcription": "[карандаш]",
+    "translation": "Карандаш",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Kənd",
+    "transcription": "[кянд]",
+    "translation": "Село, деревня",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Kəpənək",
+    "transcription": "[кяпянэй]",
+    "translation": "Бабочка",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Kim",
+    "transcription": "[ким]",
+    "translation": "Кто",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Kitab",
+    "transcription": "[китаб]",
+    "translation": "Книга",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Kol",
+    "transcription": "[къол]",
+    "translation": "Куст",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Kreslo",
+    "transcription": "[кресло]",
+    "translation": "Кресло",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Qələm",
+    "transcription": "[гялям]",
+    "translation": "Ручка",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Qız",
+    "transcription": "[гыз]",
+    "translation": "Девочка, девушка, дочь",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Qulaq",
+    "transcription": "[гулах]",
+    "translation": "Ухо",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Quş",
+    "transcription": "[гуш]",
+    "translation": "Птица",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Lalə",
+    "transcription": "[лалэ]",
+    "translation": "Мак, тюльпан",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Məktub",
+    "transcription": "[мяктуб]",
+    "translation": "Письмо",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Müəllim",
+    "transcription": "[мяэллим]",
+    "translation": "Учитель, преподаватель; обращение к мужчинам",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Nar",
+    "transcription": "[нар]",
+    "translation": "Гранат",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Neçə/nə qədər",
+    "transcription": "[нечэ/нягядяр]",
+    "translation": "Сколько",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Nə",
+    "transcription": "[ня]",
+    "translation": "Что",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Oğlan",
+    "transcription": "[оглан]",
+    "translation": "Мальчик, парень",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Ora",
+    "transcription": "[ора]",
+    "translation": "То место",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Pişik",
+    "transcription": "[пиший]",
+    "translation": "Кошка",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Söz",
+    "transcription": "[сёз]",
+    "translation": "Слово",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Şəhər",
+    "transcription": "[шяхяр]",
+    "translation": "Город",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Telefon",
+    "transcription": "[телефон]",
+    "translation": "Телефон",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Televizor",
+    "transcription": "[телевизор]",
+    "translation": "Телевизор",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Tənbəl",
+    "transcription": "[тямбяль]",
+    "translation": "Ленивый, лентяй",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Universitet",
+    "transcription": "[университет]",
+    "translation": "Университет",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Uşaq/bala",
+    "transcription": "[ушах/бала]",
+    "translation": "Ребёнок",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Ütü",
+    "transcription": "[ютю]",
+    "translation": "Утюг",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "Üzüm",
+    "transcription": "[юзюм]",
+    "translation": "Виноград",
+    "lesson": "Урок 1"
+  },
+  {
+    "word": "O",
+    "transcription": "[о]",
+    "translation": "Тот, та, то, этот, это; он, она, оно",
+    "lesson": "Урок 1"
+  }
+]

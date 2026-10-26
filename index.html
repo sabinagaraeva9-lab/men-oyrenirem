@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#246b58">
+<title>Mən öyrənirəm — Азербайджанский</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">AZ · ЛИЧНЫЙ СЛОВАРЬ</div>
+  <h1>Mən öyrənirəm <span>🇦🇿</span></h1>
+  <p>Маленькими шагами к большому словарному запасу.</p>
+</header>
+<main>
+  <section class="stats" aria-label="Статистика">
+    <article class="stat"><b id="totalStat">0</b><span>слов в словаре</span></article>
+    <article class="stat"><b id="knownStat">0</b><span>знаю хорошо</span></article>
+    <article class="stat"><b id="reviewStat">0</b><span>на повторение</span></article>
+    <article class="stat"><b id="dueStat">0</b><span>пора повторить</span></article>
+  </section>
+
+  <nav class="tabs" aria-label="Режим обучения">
+    <button class="tab active" data-mode="flash">🃏 Карточки</button>
+    <button class="tab" data-mode="type">✍️ Написать перевод</button>
+    <button class="tab" data-mode="judge">🧠 Проверь себя</button>
+    <button class="tab" data-mode="reverse">↩️ Русский → AZ</button>
+  </nav>
+
+  <section class="panel">
+    <div class="row between"><div><div class="eyebrow" id="modeTitle">Урок 1 · Карточки</div><div class="subtle" id="counter">Карточка 1 из 80</div></div><select id="lessonSelect" aria-label="Выбрать урок"><option value="all">Все уроки</option><option value="Урок 1">Урок 1</option></select></div>
+    <div class="progress"><div id="progressBar"></div></div>
+
+    <section id="flashMode" class="mode">
+      <button id="flashCard" class="flashcard" type="button" aria-label="Перевернуть карточку">
+        <span class="eyebrow" id="faceLabel">АЗЕРБАЙДЖАНСКОЕ СЛОВО</span>
+        <span class="word" id="flashWord">Ağaç</span>
+        <span class="transcription" id="flashTrans">[аадж]</span>
+        <span class="translation hidden" id="flashTranslation">Дерево</span>
+        <span class="hint" id="flipHint">Нажми на карточку, чтобы увидеть перевод</span>
+      </button>
+      <div class="actions">
+        <button class="btn" id="prevBtn">← Назад</button><button class="btn primary" id="flipBtn">Перевернуть</button>
+        <button class="btn" id="speakBtn">🔊 Озвучить</button><button class="btn" id="nextBtn">Дальше →</button>
+      </div>
+      <div class="actions hidden" id="rateActions"><button class="btn danger" data-rate="0">Не помню</button><button class="btn" data-rate="1">Сложно</button><button class="btn success" data-rate="2">Знаю</button></div>
+    </section>
+
+    <section id="typeMode" class="mode hidden">
+      <div class="eyebrow">ВВЕДИ РУССКИЙ ПЕРЕВОД</div><div class="word" id="typeWord"></div><div class="transcription" id="typeTrans"></div>
+      <form id="typeForm" class="answerForm"><input id="typeInput" autocomplete="off" placeholder="Твой перевод…" required><button class="btn primary">Проверить</button></form>
+      <div id="typeFeedback" class="feedback" aria-live="polite"></div>
+      <div class="actions hidden" id="typeActions"><button class="btn danger" data-rate="0">Не помню</button><button class="btn success" data-rate="2">Знаю</button><button class="btn" data-next="type">Следующее →</button></div>
+    </section>
+
+    <section id="judgeMode" class="mode hidden">
+      <div class="eyebrow">ВСПОМНИ ПЕРЕВОД И ВПИШИ ЕГО</div><div class="word" id="judgeWord"></div><div class="transcription" id="judgeTrans"></div>
+      <form id="judgeForm" class="answerForm"><input id="judgeInput" autocomplete="off" placeholder="Впиши перевод…" required><button class="btn primary">Проверить</button></form>
+      <div id="judgeFeedback" class="feedback" aria-live="polite"></div>
+      <div class="actions hidden" id="judgeActions"><button class="btn danger" data-rate="0">❌ Неверно</button><button class="btn success" data-rate="2">✅ Верно</button><button class="btn" data-next="judge">Следующее →</button></div>
+    </section>
+
+    <section id="reverseMode" class="mode hidden">
+      <div class="eyebrow">НАПИШИ СЛОВО ПО-АЗЕРБАЙДЖАНСКИ</div><div class="word" id="reverseWord"></div>
+      <form id="reverseForm" class="answerForm"><input id="reverseInput" autocomplete="off" placeholder="Азербайджанское слово…" required><button class="btn primary">Проверить</button></form>
+      <div id="reverseFeedback" class="feedback" aria-live="polite"></div>
+      <div class="actions hidden" id="reverseActions"><button class="btn danger" data-rate="0">Не помню</button><button class="btn success" data-rate="2">Знаю</button><button class="btn" data-next="reverse">Следующее →</button></div>
+    </section>
+
+    <div class="toolbar">
+      <button class="btn" id="shuffleBtn">🔀 Перемешать</button><button class="btn" id="reviewBtn">Повторить сложные</button><button class="btn" id="dueBtn">Повторить по расписанию</button><button class="btn" id="allBtn">Все слова</button>
+    </div>
+  </section>
+
+  <section class="panel addPanel">
+    <h2>➕ Добавить слова</h2><p class="subtle">Добавляй слова по одному или импортируй список в формате <code>слово | транскрипция | перевод</code>.</p>
+    <form id="addForm" class="addGrid">
+      <label>Слово на азербайджанском<input id="newWord" required placeholder="məsələn, kitab"></label>
+      <label>Транскрипция<input id="newTrans" placeholder="[китаб]"></label>
+      <label>Перевод<input id="newTranslation" required placeholder="книга"></label>
+      <label>Название урока<input id="newLesson" value="Мои слова" required></label>
+      <button class="btn primary addButton">Добавить слово</button>
+    </form>
+    <details><summary>Импортировать список слов</summary><form id="bulkForm"><textarea id="bulkInput" rows="5" placeholder="kitab | [китаб] | книга | Урок 2&#10;su | [су] | вода | Урок 2"></textarea><button class="btn primary">Импортировать</button></form></details>
+    <p class="feedback" id="addFeedback" aria-live="polite"></p>
+    <div class="toolbar"><button class="btn" id="exportBtn">Скачать резервную копию</button><label class="btn fileLabel" for="importFile">Восстановить копию</label><input class="hidden" id="importFile" type="file" accept="application/json"></div>
+  </section>
+
+  <section class="panel">
+    <details open><summary>📚 Словарь</summary><div class="vocabHeader"><input id="searchInput" placeholder="Найти слово или перевод…"><select id="vocabLesson"><option value="all">Все уроки</option><option value="Урок 1">Урок 1</option></select></div><div id="vocabList" class="vocab"></div></details>
+  </section>
+  <p class="footnote">Прогресс сохраняется в этом браузере. Для переноса на другое устройство скачай резервную копию. Озвучивание зависит от доступных голосов браузера.</p>
+</main>
+<script src="script.js" defer></script>
+</body></html>
