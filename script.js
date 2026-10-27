@@ -5,9 +5,9 @@ const INITIAL = [
 const WORDS_KEY='men_oyrenirem_words_v3', PROGRESS_KEY='men_oyrenirem_progress_v3';
 const $=id=>document.getElementById(id);
 const safeParse=(s,fallback)=>{try{return JSON.parse(s)||fallback}catch{return fallback}};
-let extras=safeParse(localStorage.getItem(WORDS_KEY),'[]');
+let extras=safeParse(localStorage.getItem(WORDS_KEY),[]);
 let words=[...INITIAL,...(Array.isArray(extras)?extras:[])];
-let progress=safeParse(localStorage.getItem(PROGRESS_KEY),'{}');
+let progress=safeParse(localStorage.getItem(PROGRESS_KEY),{});
 let mode='flash', filter='all', order=[], index=0, flipped=false, currentPool='all';
 function norm(s){return String(s??'').toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[.,!?;:()[\]«»"]/g,'').trim().replace(/\s+/g,' ')}
 function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
